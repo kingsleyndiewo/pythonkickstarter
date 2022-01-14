@@ -5,3 +5,4 @@ dependencies:
   - postgresql
   - psycopg2
   - pip
+  - sqlalchemy
