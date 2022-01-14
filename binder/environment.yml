@@ -1,0 +1,7 @@
+name: python-kickstarter-course
+channels:
+  - defaults
+dependencies:
+  - postgresql
+  - psycopg2
+  - pip
