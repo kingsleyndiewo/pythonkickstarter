@@ -11,6 +11,7 @@ fi
 pg_ctl -D "$PGDATA" -l "$PGDATA/pgsql.log" start
 
 # copy the initialisation files into the final container
+mv setup_postgres $CONDA_DIR/
 chmod +x $CONDA_DIR/setup_postgres/init_postgres.sh
 $CONDA_DIR/setup_postgres/init_postgres.sh
 
