@@ -6,3 +6,5 @@ dependencies:
   - psycopg2
   - pip
   - sqlalchemy
+  - cryptography
+  - pycryptodome
